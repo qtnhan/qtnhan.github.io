@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <title>The band (Clone)</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Begin Header -->
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+            <div class="search-btn ti-search"></div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
+        </div>
+        <!-- End Header -->
+        <div id="slider">
+            <div id="txtSlider" class="text-slider">
+                <h2>Los Angeles</h2>
+                <p>We had the best time playing at Venice Beach!</p>
+            </div>
+        </div>
+        <!-- Begin Content -->
+        <div id="content">
+            <!-- Begin The band -->
+            <div id="band" class="content-section">
+                <h1 class="section-heading">
+                    THE BAND
+                </h1>
+                <p class="section-sub-heading">
+                    We love music
+                </p>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+                <div class="member-list">
+                    <div class="content-member">
+                        <p>Name</p>
+                        <img src="./assets/imgs/member.jpg" alt="Name" class="img-member">
+                    </div>
+                    <div class="content-member">
+                        <p>Name</p>
+                        <img src="./assets/imgs/member.jpg" alt="Name" class="img-member">
+                    </div>
+                    <div class="content-member">
+                        <p>Name</p>
+                        <img src="./assets/imgs/member.jpg" alt="Name" class="img-member">
+                    </div>
+                </div>
+            </div>
+            <!-- End The band -->
+            <!-- Begin Tour -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h1 class="section-heading">
+                        TOUR DATES
+                    </h1>
+                    <p class="section-sub-heading">
+                        Remember to book your tickets!
+                    </p>
+                    <ul class="tickets-list">
+                        <li>September <span class="soldout">Sold out</span></li>
+                        <li>October <span class="soldout">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img src="./assets/imgs/newyork.jpg" alt="" class="place-img">
+                            <div class="place-text">
+                                <h2 class="place-heading">New York</h2>
+                                <div class="place-sub-heading">Fri 27 Nov 2016</div>
+                                <div class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <button class="place-btn-ticket js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-item">
+                            <img src="./assets/imgs/paris.jpg" alt="" class="place-img">
+                            <div class="place-text">
+                                <h2 class="place-heading">Paris</h2>
+                                <div class="place-sub-heading">Sat 28 Nov 2016</div>
+                                <div class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <button class="place-btn-ticket js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place-item">
+                            <img src="./assets/imgs/sanfran.jpg" alt="" class="place-img">
+                            <div class="place-text">
+                                <h2 class="place-heading">San Francisco</h2>
+                                <div class="place-sub-heading">Sun 29 Nov 2016</div>
+                                <div class="place-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </div>
+                                <button class="place-btn-ticket js-btn-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Tour -->
+            <!--  Begin Contact -->
+            <div id="contact" class="content-section">
+                <h1 class="section-heading">
+                    CONTACT
+                </h1>
+                <p class="section-sub-heading">
+                    Fan? Drop a note!
+                </p>
+                <div class="contact-form">
+                    <div class="contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-headphone"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="contact-input">
+                        <form action="">
+                            <div class="input-info">
+                                <input type="text" placeholder="Name" required class="input-form">
+                                <input type="email" placeholder="Email" required class="input-form">
+                            </div>
+                            <div class="input-message">
+                                <input type="text" placeholder="Message" required class="input-message">
+                            </div>
+                            <input type="submit" class="submit-btn" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--  End Contact -->
+            <img src="./assets/imgs/map.jpg" alt="" class="img-map">
+        </div>
+        <!-- End Content -->
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <i class="ti-facebook"></i>
+        <i class="ti-instagram"></i>
+        <i class="ti-github"></i>
+        <i class="ti-skype"></i>
+        <i class="ti-twitter-alt"></i>
+        <p class="footer-by">Powered by <a href="">w3.css</a></p>
+    </div>
+    <!-- Footer -->
+    <div class="modal js-modal">
+        <div class="modal-container">
+            <div class="modal-close js-btn-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="modal-ticket ti-bag" style="margin-right: 16px;"></i>
+                <p class="modal-heading" style="letter-spacing: 4px;">Tickets</p>
+            </header>
+
+            <div class="modal-body">
+                <p class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    <label for="" class="">Tickets, $15 per person</label>
+                </p>
+                <input type="text" class="modal-input" placeholder="How many?">
+
+                <p class="modal-label">
+                    <i class="ti-user"></i>
+                    <label for="" class="modal-label">Send to</label>
+                </p>
+                <input type="email" class="modal-input" placeholder="Enter email">
+                <button id="buy-ticket">
+                    Pay
+                    <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <div class="modal-footer">
+                <p class="modol-help">Need <a href="" class="help">help?</a> </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* Button buy Tickets */
+        var btnTickets = document.querySelectorAll('.js-btn-ticket');
+        var modal = document.querySelector('.js-modal');
+        var btnClose = document.querySelector('.js-btn-close');
+
+        /* Memu */
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeigt = header.clientHeight;
+
+        /* Đóng / mở menu */
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeigt;
+            if (isClosed) {
+                header.style.height = 'auto';
+            }
+            else {
+                header.style.height = null;
+            }
+        }
+
+        /* Đóng menu khi click thẻ a trong menu */
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i=0 ; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            menuItem.onclick = function() {
+                header.style.height = null;
+            }
+        }
+
+
+        function showModalTicket() {
+            modal.classList.add('open')
+        }
+
+        function hideModalicket() {
+            modal.classList.remove('open')
+        }
+
+        for (const btnTicket of btnTickets) {
+            btnTicket.addEventListener('click', showModalTicket)
+        }
+        /* btnClose.onclick = hideModalicket; */
+        btnClose.addEventListener('click', hideModalicket)
+    </script>
+</body>
+
+</html>
